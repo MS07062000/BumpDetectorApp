@@ -1,0 +1,30 @@
+name: bump_detector_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sensors_plus: ^3.0.3
+  fl_chart: ^0.63.0 # Check for the latest version on pub.dev
+  syncfusion_flutter_charts: ^22.1.39
+  location: ^5.0.2+1
+  gsheets: ^0.5.0
+  intl: ^0.18.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+assets:
+  - assets/gsheets-394705-2bc874e892f1.json
